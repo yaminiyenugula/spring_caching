@@ -1,3 +1,4 @@
+
 package com.example.caching;
 
 import org.springframework.boot.SpringApplication;
@@ -9,6 +10,7 @@ import org.springframework.cache.annotation.EnableCaching;
 public class CachingApplication {
 
     public static void main(String[] args) {
+
         SpringApplication.run(CachingApplication.class, args);
     }
 }
